@@ -1,0 +1,310 @@
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+
+.parents{
+    border: 1px solid black;
+    height: 100vh;
+}
+
+/* parent 1 */
+
+#parent1{
+    background-image: url(../assets/parallaximg1.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-attachment:fixed;
+
+    opacity: 0.7;
+
+
+}
+
+#ones-1{
+    border: 1px solid black;
+    height: 70px;
+    width: 430px;
+    margin-top: 345px;
+    /* margin-top: 48vh; */
+    text-align: center;
+    background-color: black;
+    line-height: 65px;
+
+    
+}
+
+#ones-line1 {
+    font-family: "Lato", sans-serif;
+    font-weight :500;
+    letter-spacing: 8px;
+    font-size:28px;
+    color: white;
+    
+    /* font-style: normal; */
+  }
+
+  /* parent 2 */
+
+  #parent2{
+    background-image: url(../assets/parallaximg2.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-attachment: fixed;
+    opacity: 0.7;
+
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 45% 55%;
+
+    
+  }
+
+  #twos-1{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    line-height: 30px;
+    font-family: "Lato", sans-serif;
+    /* letter-spacing: 1px; */
+    /* word-spacing: 1px; */
+
+    /* opacity: 0.9; */
+    color: rgb(49, 48, 48);
+
+    
+  }
+
+  #twos-line1{
+    /* border: 1px solid green; */
+    height: 50px;
+    margin-top: 60px;
+    font-weight:800;
+    /* color: rgba(rgb(9, 9, 9), rgb(11, 11, 11), rgb(13, 13, 14), 0.1);
+    opacity: 0,7; */
+  }
+  #twos-line2{
+    /* border: 1px solid green; */
+    height: 150px;
+    width: 1370px;
+    font-weight: 600;
+
+  }
+
+  #twos-2{
+    text-align: center;
+    
+  }
+
+  #twos-line3{
+    /* border: 1px solid red; */
+    /* text-align: center; */
+    margin-top: 190px;
+    letter-spacing: 7.5px;
+    font-size: 28px;
+    color: white;
+    font-weight: normal;
+    word-spacing: 5px;
+  }
+
+  .twos{
+    /* border: 1px solid red; */
+  }
+
+  .twos-lines{
+    font-family: "Lato", sans-serif;
+
+  }
+
+  /* parent 3 */
+
+  #parent3-img{
+    /* background-image: url(../assets/parallaximg3.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%; */
+    /* height: 1000px; */
+    /* height: 50vh; */
+    /* position: fixed; */
+    /* background-color: red; */
+    
+    
+
+  }
+  img{
+
+    size: 100% 100%;
+    opacity: 0.7;
+  }
+
+  #parent3{
+    height: 130vh;
+    background-image: url(../assets/parallaximg3.jpg) ;
+    /* opacity: 0.7; */
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+
+    background-attachment: fixed;
+    
+    /* position: relative; */
+
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 30% 40% 30%;
+    
+    /* opacity: 0.7; */
+  }
+
+  .threes{
+    /* border: 1px solid red; */
+    
+
+  }
+
+  /* .threes{
+    display: grid;
+    grid-template-columns: 1fr;
+    align-items: center;
+  } */
+
+  /* {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 50px 150px;
+
+  } */
+  
+  #threes-1,#threes-3{
+    /* border: 1px solid green; */
+    /* background-color: red; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    /* grid-template-columns: 1fr;
+    grid-template-rows: 50px 150px; */
+
+    text-align: center;
+    /* gap: 0px; */
+
+  }
+
+
+  #threes-1,#threes-3{
+    background-color: #282e34;
+    color: white;
+   
+
+  }
+
+  #three-line1{
+    /* border: 1px solid red; */
+    height: 50px;
+    margin-top: 50px;
+    font-family: "Lato", sans-serif;
+    font-size: 25px;
+
+  }
+
+  #three-line2{
+    /* border: 1px solid red; */
+    height: 150px;
+    font-family: "Lato", sans-serif;
+    width: 1370px;
+    font-size: 16.5px;
+
+    line-height: 30px;
+
+  }
+
+  #three-line3{
+    /* border: 1px solid red; */
+    font-family: "Lato", sans-serif;
+    text-align: center;
+    margin-top: 190px;
+    letter-spacing: 7.5px;
+    font-size: 28px;
+    color: white;
+    font-weight: normal;
+    word-spacing: 5px;
+
+    /* opacity: 0.7; */
+    /* opacity: 0.0; */
+
+
+
+  }
+
+  #three-line4{
+    /* border: 1px solid red; */
+    height: 50px;
+    margin-top: 50px;
+    font-family: "Lato", sans-serif;
+
+
+  }
+
+  #three-line5{
+    /* border: 1px solid red; */
+    height: 150px;
+    font-family: "Lato", sans-serif;
+    width: 1370px;
+    font-size: 16.5px;
+    line-height: 30px;
+
+
+    
+
+
+  }
+
+  /* parent 4 */
+
+  #parent4{
+    background-image: url(../assets/parallaximg1.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-attachment:fixed;
+
+    opacity: 0.7;
+    
+  }
+
+  #ones-2{
+    border: 1px solid black;
+    height: 70px;
+    width: 390px;
+    margin-top: 345px;
+    /* margin-top: 48vh; */
+    text-align: center;
+    background-color: black;
+    line-height: 65px;
+
+    
+}
+
+  #ones-line2 {
+    font-family: "Lato", sans-serif;
+    font-weight :500;
+    letter-spacing: 8px;
+    font-size:28px;
+    color: white;
+    
+    /* font-style: normal; */
+  }
+  
+
+
+
+
+
+
